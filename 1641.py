@@ -16,6 +16,7 @@ def vowels_count(n):
          
     return dp[j][0]
 
-x = vowels_count(3) 
-print(x)
+if __name__=="__main__":
+    x = vowels_count(3) 
+    print(x)
 
